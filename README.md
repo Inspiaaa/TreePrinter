@@ -1,14 +1,14 @@
 # Treeprinter
 ![Python 3.7](https://img.shields.io/badge/Python-3.x-blue.svg?style=for-the-badge&logo=python)
-
 A simple python script to recursively print a nested tree structure. It's simple to use and can support a tree structure containing user defined types.
 Very useful for visualising nested data such as:
 
  - File structure
  - Abstract syntax tree
 
-Getting started
---
+---
+## Getting started
+
 Copy the script into your local workspace and import it
 ```python
 import tree_printer as tp
@@ -40,7 +40,6 @@ dispatch_table = {
 printer = tp.TreePrinter(dispatch_table)  
 printer.print("History of Music", data)
 ```
-
 Console:
 ```
 History of Music
